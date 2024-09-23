@@ -1,0 +1,21 @@
+body {
+    background-color: #333;
+    padding: 0;
+    margin:0;
+    user-select: none;
+}
+
+.container{
+    display:flex;
+}
+.main-content{
+    background-color: #03AED2;
+    height:200vh;
+    width:75%;
+    border-right: 2px solid black;
+}
+.sidebar-right{
+    background-color: #68D2E8;
+    height:200vh;
+    width:25%;
+}
