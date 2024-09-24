@@ -1,8 +1,9 @@
-body {
+html,body {
     background-color: #333;
     padding: 0;
     margin:0;
     user-select: none;
+    overflow:hidden;
 }
 
 .container{
@@ -10,12 +11,31 @@ body {
 }
 .main-content{
     background-color: #03AED2;
-    height:200vh;
+    height:100vh;
     width:75%;
     border-right: 2px solid black;
 }
 .sidebar-right{
     background-color: #68D2E8;
-    height:200vh;
+    height:100vh;
     width:25%;
+}
+
+.main-content {
+    padding: 20px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-content p{
+    font-size:20px;
+    font-weight: 400;
+    margin: 30px;
+}
+.main-content h1{
+    font-size:50px;
+    font-weight: 700;
+}
+.main-content img{
+    width: 95%;
+    height: 50vh;
+    margin: 30px;
 }
