@@ -1,0 +1,12 @@
+.abouts{
+    background-color: #87A2FF;
+    overflow-y:scroll;
+    height: 100vh;
+}
+.card{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px;
+    
+}

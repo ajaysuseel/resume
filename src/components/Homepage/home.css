@@ -36,6 +36,7 @@ html,body {
 }
 .main-content img{
     width: 95%;
+    border-radius: 20px;
     height: 50vh;
     margin: 30px;
 }
