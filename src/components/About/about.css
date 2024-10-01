@@ -10,3 +10,18 @@
     gap:10px;
     
 }
+
+.admin{
+    padding:10px;
+    margin-right:25px;
+    margin-bottom: 10px;
+    width: 60px;
+    height:35px;
+    background-color:blueviolet;
+    color: azure;
+    border-radius: 15px;
+
+    position:absolute;
+    bottom:0;
+    right:0;
+}
